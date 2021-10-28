@@ -45,10 +45,10 @@ export default defineConfig({
 		// 	text: "简体中文",
 		// 	items: [],
 		// },
-		footer: {
-			message: "根据 MIT 许可证发布",
-			copyright: "Copyright © 2021-2022 Xmov",
-		},
+		// footer: {
+		// 	message: "根据 MIT 许可证发布",
+		// 	copyright: "Copyright © 2022-2023 Mintnoii",
+		// },
 		nav: [
 			{ text: "首页", link: "/guide/index", activeMatch: "/guide" },
 			{ text: "开发手册", link: "/tutorial/setup", activeMatch: "/tutorial/" },

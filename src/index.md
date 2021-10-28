@@ -6,7 +6,7 @@ titleTemplate: 做一个清新优雅的前端
 
 hero:
   name: Mintnoii's Site
-  text: 欢迎加入魔珐前端
+  text: Hello, I'm Mintnoii
   tagline: ''
   actions:
     - theme: brand
