@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 import path from "path";
 
 export default defineConfig({
-	base: "/Notes",
+	base: "/Notes/",
 	title: "Mintnoii's Site",
 	lang: "zh-CN",
 	description:
@@ -27,6 +27,7 @@ export default defineConfig({
 		],
 		["link", { rel: "icon", href: "/favicon.ico" }],
 	],
+	ignoreDeadLinks: true, // 最好加上，构建时会忽略md中的外链
 	srcDir: `${path.resolve(process.cwd())}/src`,
 	themeConfig: {
 		logo: "/logo.png",
