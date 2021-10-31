@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 import path from "path";
 
 export default defineConfig({
-	base: "/Notes/",
+	base: "/notes/",
 	title: "Mintnoii's Site",
 	lang: "zh-CN",
 	description:
