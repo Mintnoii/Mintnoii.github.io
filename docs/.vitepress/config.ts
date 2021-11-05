@@ -31,14 +31,10 @@ export default defineConfig({
 	srcDir: `${path.resolve(process.cwd())}/src`,
 	themeConfig: {
 		logo: "/logo.png",
-		editLink: {
-			text: "为此页提供修改建议",
-			pattern: "https://mintnoii.com/",
-		},
 		socialLinks: [
 			{
 				icon: "github",
-				link: "https://mintnoii.com/",
+				link: "https://github.com/Mintnoii",
 			},
 		],
 		// localeLinks: {
@@ -50,60 +46,76 @@ export default defineConfig({
 		// 	copyright: "Copyright © 2022-2023 Mintnoii",
 		// },
 		nav: [
-			{ text: "首页", link: "/guide/index", activeMatch: "/guide" },
-			{ text: "开发手册", link: "/tutorial/setup", activeMatch: "/tutorial/" },
+			// { text: "首页", link: "/guide/index", activeMatch: "/guide" },
+			// { text: "开发手册", link: "/tutorial/setup", activeMatch: "/tutorial/" },
+			// {
+			// 	text: "前端基建",
+			// 	items: [
+			// 		{
+			// 			text: "xmov-cli",
+			// 			link: "/front-base/xmov-cli/index",
+			// 		},
+			// 	],
+			// },
+			{ text: "Rust", link: "/rust/notes/index", activeMatch: "/rust/notes" },
 			{
-				text: "前端基建",
-				items: [
-					{
-						text: "xmov-cli",
-						link: "/front-base/xmov-cli/index",
-					},
-				],
+				text: "Blog",
+				link: "https://mintnoii.com/",
 			},
-			{
-				text: "相关链接",
-				items: [
-					{
-						text: "博客",
-						link: "https://mintnoii.com/",
-					},
-				],
-			},
+			// {
+			// 	text: "相关链接",
+			// 	items: [
+			// 		{
+			// 			text: "博客",
+			// 			link: "https://mintnoii.com/",
+			// 		},
+			// 	],
+			// },
 		],
 		sidebar: {
-			"/front-base/xmov-cli/": [
+			// "/front-base/xmov-cli/": [
+			// 	{
+			// 		text: "xmov cli",
+			// 		items: [
+			// 			{
+			// 				text: "安装使用",
+			// 				link: "/front-base/xmov-cli/",
+			// 			},
+			// 			{
+			// 				text: "参与开发",
+			// 				link: "/front-base/xmov-cli/dev",
+			// 			},
+			// 		],
+			// 	},
+			// 	{
+			// 		text: "模板项目",
+			// 		items: [
+			// 			{
+			// 				text: "Vue 模板",
+			// 				link: "/front-base/xmov-cli/tmpls/vue",
+			// 			},
+			// 			{
+			// 				text: "React 模板",
+			// 				link: "/front-base/xmov-cli/tmpls/react",
+			// 			},
+			// 			{
+			// 				text: "Electron 模板",
+			// 				link: "/front-base/xmov-cli/tmpls/electron",
+			// 			},
+			// 		],
+			// 	},
+			// ],
+			"/rust/notes/":[
 				{
-					text: "xmov cli",
+					// text: "结构体",
 					items: [
 						{
-							text: "安装使用",
-							link: "/front-base/xmov-cli/",
-						},
-						{
-							text: "参与开发",
-							link: "/front-base/xmov-cli/dev",
+							text: "结构体",
+							link: "/rust/notes/struct",
 						},
 					],
 				},
-				{
-					text: "模板项目",
-					items: [
-						{
-							text: "Vue 模板",
-							link: "/front-base/xmov-cli/tmpls/vue",
-						},
-						{
-							text: "React 模板",
-							link: "/front-base/xmov-cli/tmpls/react",
-						},
-						{
-							text: "Electron 模板",
-							link: "/front-base/xmov-cli/tmpls/electron",
-						},
-					],
-				},
-			],
+			]
 		},
 	},
 });
