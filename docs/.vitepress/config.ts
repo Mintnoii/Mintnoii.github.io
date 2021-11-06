@@ -37,6 +37,8 @@ export default defineConfig({
 				link: "https://github.com/Mintnoii",
 			},
 		],
+		outline: [2, 3],
+		outlineTitle: "本文概述",
 		// localeLinks: {
 		// 	text: "简体中文",
 		// 	items: [],
@@ -57,6 +59,20 @@ export default defineConfig({
 			// 		},
 			// 	],
 			// },
+			// {
+			// 	text: "前端框架",
+			// 	items: [
+			// 		{
+			// 			text: "Vue3",
+			// 			link: "/frame/vue",
+			// 		},
+			// 	],
+			// },
+			{
+				text: "读书笔记",
+				link: "/read/coder/index",
+				activeMatch: "/read/coder",
+			},
 			{ text: "Rust", link: "/rust/notes/index", activeMatch: "/rust/notes" },
 			{
 				text: "Blog",
@@ -105,7 +121,29 @@ export default defineConfig({
 			// 		],
 			// 	},
 			// ],
-			"/rust/notes/":[
+			// "/frame/": [
+			// 	{
+			// 		// text: "解决方案",
+			// 		items: [
+			// 			{
+			// 				text: "解决方案",
+			// 				link: "//notes/struct",
+			// 			},
+			// 		],
+			// 	},
+			// ],
+			"/read/": [
+				{
+					text: "编程类",
+					items: [
+						{
+							text: "程序员的思维修炼",
+							link: "/read/coder/程序员的思维修炼",
+						},
+					],
+				},
+			],
+			"/rust/notes/": [
 				{
 					// text: "结构体",
 					items: [
@@ -115,7 +153,7 @@ export default defineConfig({
 						},
 					],
 				},
-			]
+			],
 		},
 	},
 });
