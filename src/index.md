@@ -2,19 +2,19 @@
 layout: home
 
 title: Mintnoii's Site
-titleTemplate: 做一个清新优雅的前端
+titleTemplate: to be a better engineer
 
 hero:
   name: Mintnoii's Site
   text: Hello, I'm Mintnoii
-  tagline: ''
-  actions:
-    - theme: brand
-      text: 开始
-      link: /guide/
-    - theme: alt
-      text: 介绍
-      link: /guide/introduction
+  # tagline:
+  # actions:
+  #   - theme: brand
+    #   text: 开始
+    #   link: /guide/
+    # - theme: alt
+    #   text: 介绍
+    #   link: /guide/introduction
 
 features:
   - icon: 🚀
