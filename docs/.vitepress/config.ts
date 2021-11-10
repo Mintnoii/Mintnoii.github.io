@@ -13,7 +13,7 @@ export default defineConfig({
 			"meta",
 			{
 				name: "keywords",
-				content: "Mintnoii, Mintnoii's Site, vite, vue, vue3",
+				content: "Mintnoii, Mintnoii's Site, Mintnoii's Blog",
 			},
 		],
 		["link", { rel: "icon", type: "image/png", href: "/logo.png" }],
@@ -25,7 +25,7 @@ export default defineConfig({
 					"width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
 			},
 		],
-		["link", { rel: "icon", href: "/favicon.ico" }],
+		// ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
 	],
 	ignoreDeadLinks: true, // 最好加上，构建时会忽略md中的外链
 	srcDir: `${path.resolve(process.cwd())}/src`,
