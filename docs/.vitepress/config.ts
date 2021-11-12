@@ -16,7 +16,7 @@ export default defineConfig({
 				content: "Mintnoii, Mintnoii's Site, Mintnoii's Blog",
 			},
 		],
-		["link", { rel: "icon", type: "image/png", href: "/logo.png" }],
+		["link", { rel: "icon", type: "image/png", href: "/images/logo.png" }],
 		[
 			"meta",
 			{
@@ -25,7 +25,7 @@ export default defineConfig({
 					"width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
 			},
 		],
-		["link", { rel: "shortcut icon", href: "/favicon.ico" }],
+		["link", { rel: "shortcut icon", href: "/images/favicon.ico" }],
 	],
 	ignoreDeadLinks: true, // 最好加上，构建时会忽略md中的外链
 	srcDir: `${path.resolve(process.cwd())}/src`,
