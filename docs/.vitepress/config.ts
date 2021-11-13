@@ -30,7 +30,7 @@ export default defineConfig({
 			{
 				rel: "shortcut icon",
 				type: "image/x-icon",
-				href: "/images/favicon.ico",
+				href: "/images/logo.png",
 			},
 		],
 	],
