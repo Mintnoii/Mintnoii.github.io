@@ -16,7 +16,6 @@ export default defineConfig({
 				content: "Mintnoii, Mintnoii's Site, Mintnoii's Blog",
 			},
 		],
-		// ["link", { rel: "icon", type: "image/png", href: "/images/logo.png" }],
 		[
 			"meta",
 			{
@@ -30,7 +29,7 @@ export default defineConfig({
 			{
 				rel: "shortcut icon",
 				type: "image/x-icon",
-				href: "/images/logo.png",
+				href: "/notes/images/logo.png",
 			},
 		],
 	],
