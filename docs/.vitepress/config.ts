@@ -74,14 +74,14 @@ export default defineConfig({
 			// 		},
 			// 	],
 			// },
+			{ text: "Rust", link: "/rust/notes/index", activeMatch: "/rust/notes" },
 			{
-				text: "读书笔记",
+				text: "阅读",
 				link: "/read/coder/index",
 				activeMatch: "/read/coder",
 			},
-			{ text: "Rust", link: "/rust/notes/index", activeMatch: "/rust/notes" },
 			{
-				text: "Blog",
+				text: "博客",
 				link: "https://mintnoii.com/",
 			},
 			// {
