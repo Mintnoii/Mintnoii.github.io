@@ -1,0 +1,1 @@
+import{_ as t,c as a,e as o,o as n,r as s}from"./app.5afdac1a.js";const g=JSON.parse('{"title":"","description":"","frontmatter":{"layout":"page"},"headers":[],"relativePath":"tags/index.md"}'),r={name:"tags/index.md"};function c(l,p,d,_,i,m){const e=s("AllTags");return n(),a("div",null,[o(e)])}const u=t(r,[["render",c]]);export{g as __pageData,u as default};
