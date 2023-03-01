@@ -1,7 +1,7 @@
-import { defineConfig } from "vitepress";
+import { defineConfigWithTheme } from "vitepress";
 import path from "path";
 
-export default defineConfig({
+export default defineConfigWithTheme({
 	base: "/notes/",
 	title: "Mintnoii's Site",
 	lang: "zh-CN",
@@ -45,6 +45,7 @@ export default defineConfig({
 		],
 		outline: [2, 3],
 		outlineTitle: "本文概述",
+		posts: ['1','2','3'],
 		// localeLinks: {
 		// 	text: "简体中文",
 		// 	items: [],
@@ -75,6 +76,10 @@ export default defineConfig({
 			// 	],
 			// },
 			{ text: "Rust", link: "/rust/notes/index", activeMatch: "/rust/notes" },
+			{
+				text: "🔖Tags",
+				link: "/tags/index",
+			},
 			{
 				text: "阅读",
 				link: "/read/coder/index",
