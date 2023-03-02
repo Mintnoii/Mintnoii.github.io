@@ -16,10 +16,10 @@
 			"@/*": ["./src/*"],
 			"~/*": ["./*"]
 		},
-		"types": ["vite/client","@vue/runtime-core","@types/node"]
+		"types": ["node","vite/client"]
 	},
 	"include": [
-		".vitepress/**/*.vue",
+		"docs/.vitepress/theme/**/*",
 	],
 	"exclude": ["dist", "node_modules"]
 }

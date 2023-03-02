@@ -5,7 +5,7 @@ import "./styles/vars.css";
 
 export default {
 	...DefaultTheme,
-	enhanceApp({app}) {
+	enhanceApp({app}: any) {
 		app.component("AllTags", AllTags);
 	},
 };

@@ -55,112 +55,40 @@ export default defineConfigWithTheme({
 		// 	copyright: "Copyright © 2022-2023 Mintnoii",
 		// },
 		nav: [
-			// { text: "首页", link: "/guide/index", activeMatch: "/guide" },
-			// { text: "开发手册", link: "/tutorial/setup", activeMatch: "/tutorial/" },
-			// {
-			// 	text: "前端基建",
-			// 	items: [
-			// 		{
-			// 			text: "xmov-cli",
-			// 			link: "/front-base/xmov-cli/index",
-			// 		},
-			// 	],
-			// },
-			// {
-			// 	text: "前端框架",
-			// 	items: [
-			// 		{
-			// 			text: "Vue3",
-			// 			link: "/frame/vue",
-			// 		},
-			// 	],
-			// },
-			{ text: "Rust", link: "/rust/notes/index", activeMatch: "/rust/notes" },
-			{
-				text: "🔖Tags",
-				link: "/tags/index",
-			},
+			{ text: "Rust", link: "/posts/rust/notes/index", activeMatch: "/posts/rust/notes" },
 			{
 				text: "阅读",
-				link: "/read/coder/index",
+				link: "/posts/read/coder/index",
 				activeMatch: "/read/coder",
+			},
+			{
+				text: "标签",
+				link: "/tags/index",
 			},
 			{
 				text: "博客",
 				link: "https://mintnoii.com/",
 			},
-			// {
-			// 	text: "相关链接",
-			// 	items: [
-			// 		{
-			// 			text: "博客",
-			// 			link: "https://mintnoii.com/",
-			// 		},
-			// 	],
-			// },
 		],
 		sidebar: {
-			// "/front-base/xmov-cli/": [
-			// 	{
-			// 		text: "xmov cli",
-			// 		items: [
-			// 			{
-			// 				text: "安装使用",
-			// 				link: "/front-base/xmov-cli/",
-			// 			},
-			// 			{
-			// 				text: "参与开发",
-			// 				link: "/front-base/xmov-cli/dev",
-			// 			},
-			// 		],
-			// 	},
-			// 	{
-			// 		text: "模板项目",
-			// 		items: [
-			// 			{
-			// 				text: "Vue 模板",
-			// 				link: "/front-base/xmov-cli/tmpls/vue",
-			// 			},
-			// 			{
-			// 				text: "React 模板",
-			// 				link: "/front-base/xmov-cli/tmpls/react",
-			// 			},
-			// 			{
-			// 				text: "Electron 模板",
-			// 				link: "/front-base/xmov-cli/tmpls/electron",
-			// 			},
-			// 		],
-			// 	},
-			// ],
-			// "/frame/": [
-			// 	{
-			// 		// text: "解决方案",
-			// 		items: [
-			// 			{
-			// 				text: "解决方案",
-			// 				link: "//notes/struct",
-			// 			},
-			// 		],
-			// 	},
-			// ],
-			"/read/": [
+			"/posts/read/": [
 				{
 					text: "编程类",
 					items: [
 						{
 							text: "程序员的思维修炼",
-							link: "/read/coder/程序员的思维修炼",
+							link: "/posts/read/coder/程序员的思维修炼",
 						},
 					],
 				},
 			],
-			"/rust/notes/": [
+			"/posts/rust/notes/": [
 				{
 					// text: "结构体",
 					items: [
 						{
 							text: "结构体",
-							link: "/rust/notes/struct",
+							link: "/posts/rust/notes/struct",
 						},
 					],
 				},
